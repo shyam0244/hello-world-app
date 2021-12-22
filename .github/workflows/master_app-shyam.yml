@@ -52,4 +52,4 @@ jobs:
           app-name: 'app-shyam'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6CEC3564BD1A48B2BD1CD3D169ABB178 }}
-          package: .
+          package: ./dist/hello-world-app
